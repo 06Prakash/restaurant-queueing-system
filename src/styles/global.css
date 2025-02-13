@@ -1,0 +1,55 @@
+body {
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.queue-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.cancel {
+    background-color: orange;
+    color: white;
+}
+
+.call-next {
+    background-color: blue;
+    color: white;
+}
+
+.clear {
+    background-color: red;
+    color: white;
+}
+
+.queue-list {
+    list-style: none;
+    padding: 0;
+}
+
+.queue-item {
+    background: #e0e0e0;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
